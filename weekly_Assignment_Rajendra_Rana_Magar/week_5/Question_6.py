@@ -15,7 +15,7 @@ def create_backup(original_file):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python backup_creator.py <file_name>")
+        print("Error. Please enter a valid file name to backup.")
     else:
         file_to_backup = sys.argv[1]
         create_backup(file_to_backup)
